@@ -62,13 +62,7 @@
     將原始碼儲存為 index.html。
 
     使用任何本地伺服器啟動，例如：
-
-        VS Code：安裝並點擊 Live Server 擴充套件。
-
-        Python：在終端機輸入 python -m http.server 8000。
-
-        Node.js：使用 npx serve 或 npm install -g http-server。
-
+    
     打開瀏覽器進入對應的 localhost 網址即可開始模擬。
 
 ⌨️ 鍵盤與滑鼠操作指南 (Controls)
@@ -95,9 +89,9 @@
 請連接支援 XInput/DirectInput 的控制器或真實無人機遙控器（需具備模擬器傳輸線）：
 
     左搖桿 (Axis 2, 3)：油門 (Throttle) 與 偏航 (Yaw)
-
     右搖桿 (Axis 1, 0)：俯仰 (Pitch) 與 滾轉 (Roll)
-
+    
+已知支援的控制器: DJI RC3, Radiomaster Pocket
 (註：各廠牌遙控器的 Axis 對應可能略有不同，可觀察右上方 JSON 遙測數據進行確認與微調。)
 ⚠️ 免責聲明
 
